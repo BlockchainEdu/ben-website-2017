@@ -18,31 +18,27 @@
   <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
 </head>
 <body>
-  <div class="navbar-fixed">
-    <nav>
-      <div class="nav-wrapper">
-        <a href="/" class="brand-logo"><img src="/assets/logos/ben_logo_white.png"></a>
-        <a href="#" data-activates="mobile-nav" class="button-collapse"><i class="material-icons">menu</i></a>
-        <ul class="right hide-on-med-and-down">
-          <li><a href="/pages/about">ABOUT BEN</a></li>
-          <li><a href="/pages/airdrop">AIRDROP</a></li>
-        </ul>
-        <ul class="side-nav" id="mobile-nav">
-          <li><a href="/pages/about">ABOUT BEN</a></li>
-          <li><a href="/pages/airdrop">AIRDROP</a></li>
-        </ul>
-      </div>
-    </nav>
-  </div>
+  <div id="header"></div>
 
-  <div class="container">
+  <div class="home-container">
     <div id="banner" class="row valign-wrapper">
-      <div class="center-align">
+      <div id="bg-video">
+        <div class="bg-video-container">
+          <video loop="1" autoplay>
+            <source src="/assets/videos/bg_video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <div class="bg-cover"></div>
+      </div>
+      <div class="banner-text center-align">
         <h4>Join the Network</h4>
         <a class="waves-effect waves-light btn btn-sleek">SIGN UP</a>
       </div>
     </div>
   </div>
+
+  <div id="footer"></div>
 
   <!-- LOAD SCRIPTS -->
   <script src="/js/jquery.min.js"></script>
