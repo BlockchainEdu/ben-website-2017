@@ -95,6 +95,19 @@ div.offset-container {
   width: 100%;
 }
 
+#banner {
+  table {
+    width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+
+    th, td {
+      vertical-align: middle;
+      text-align: center;
+    }
+  }
+}
+
 /* Background Video */
 #bg-video {
   width: 100%;
