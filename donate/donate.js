@@ -1,7 +1,7 @@
 const DONATION_DATA = [
   {
     name: 'ETH',
-    address: '0xfd5e7D9B422b12022d1488710AA7a1d2F40bA0C4',
+    address: '0x92a054F55C3B8A47c041D1E378dfd48587eC9e7A',
     explorer: 'https://etherscan.io/address/'
   },
   {
@@ -10,13 +10,23 @@ const DONATION_DATA = [
     explorer: 'https://blockchain.info/address/'
   },
   {
+    name: 'BTC (SegWit)',
+    address: '39uk9zwu4p2JdwHXduKvVXmfJb96qwv69f',
+    explorer: 'https://blockchain.info/address/'
+  },
+  {
     name: 'LTC',
     address: 'LbkRGm3byn1qBCuJbjRauqLDqQQG4HTcTg',
     explorer: 'https://bchain.info/LTC/addr/'
   },
   {
+    name: 'LTC (SegWit)',
+    address: 'MSZobxbGbpj5Lz7fQT4r5MKMYYrNLUmbXx',
+    explorer: 'https://chainz.cryptoid.info/ltc/address.dws?'
+  },
+  {
     name: 'BCH',
-    address: '14PNpPRms2dqavG163Eh6zZXTquhgwsx5t',
+    address: '18GhYQLWsB2YQCrvQJRojBA29WEbaecG1Z',
     explorer: 'https://blockdozer.com/insight/address/'
   }
 ];

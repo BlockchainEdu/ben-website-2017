@@ -1,4 +1,16 @@
+const loadCss = (href) => {
+  $('<link>')
+  .appendTo('head')
+  .attr({
+      type: 'text/css', 
+      rel: 'stylesheet',
+      href: href
+  });
+}
+
 $(() => {
-  $("#header").load("/components/header.html");
-  $("#footer").load("/components/footer.html");
+  loadCss('/components/header/header.css');
+  loadCss('/components/footer/footer.css');
+  $("#header").load("/components/header/header.html");
+  $("#footer").load("/components/footer/footer.html");
 });

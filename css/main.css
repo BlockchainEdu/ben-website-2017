@@ -33,48 +33,6 @@ body {
   background: white;
 }
 
-/* Navbar */
-.brand-logo {
-  height: 100%;
-}
-
-.brand-logo > img {
-  padding: 5%;
-  height: 100%;
-  width: auto;
-}
-
-nav {
-  background: black;
-}
-
-.nav-wrapper > a
-.nav-wrapper > ul > li > a {
-  color: white;
-}
-
-.nav-wrapper > ul > li:hover {
-  background-color: rgba(255,255,255,0.2);
-}
-
-#sidenav-overlay {
-  z-index: 97;
-}
-
-.side-nav {
-  background-color: black;
-}
-
-.side-nav li > a {
-  color: white;
-}
-
-div.navbar-fixed {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
 /* Container */
 div.home-container {
   width: 100%;
@@ -84,6 +42,7 @@ div.home-container {
 div.offset-container {
   margin-top: 64px;
 }
+
 
 /* Banner */
 #banner {
@@ -127,60 +86,4 @@ div.offset-container {
 
 .banner-text {
   z-index: 2;
-}
-
-/* Footer */
-footer {
-  padding-top: 50px;
-  padding-bottom: 10px;
-}
-
-footer img {
-  display: block;
-  margin: 50px auto;
-  width: 110px;
-}
-
-div.social-icons div {
-  display: inline-block;
-  padding: 0px 9px;
-  line-height: 13px;
-}
-
-div.social-icons div:first-child {
-  padding-left: 0px;
-}
-
-div.social-icons a {
-  color: white;
-  -webkit-transition: all 500ms ease;
-  -moz-transition: all 500ms ease;
-  -ms-transition: all 500ms ease;
-  -o-transition: all 500ms ease;
-  transition: all 500ms ease;
-}
-
-div.social-icons a:hover {
-  color: #0cb4ce;
-}
-
-div.social-icons i {
-  font-size: 18px;
-}
-
-footer div.newsletter {
-  height: 100%;
-}
-
-#mc_embed_signup_scroll {
-  margin-top: 20px;
-}
-
-#mc_embed_signup {
-  margin: 20px 0px;
-}
-
-#mce-EMAIL-container {
-  width: 50%;
-  margin: 0 auto;
 }
