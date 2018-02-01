@@ -1,0 +1,89 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  background-color: black;
+}
+
+/* Misc */
+.center-block {
+  float: none !important;
+  display: block;
+  margin: 0 auto !important;
+}
+
+/* Buttons */
+.btn-sleek {
+  color: white;
+  background: rgba(0,0,0,0.5);
+  border-radius: 1px;
+  border: 1px solid white;
+  padding: 0.2rem 2rem;
+  height: auto;
+  font-size: 12px;
+  font-weight: 600;
+  -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+
+.btn-sleek:hover {
+  color: black;
+  background: white;
+}
+
+/* Container */
+div.home-container {
+  width: 100%;
+  max-width: none;
+}
+
+div.offset-container {
+  margin-top: 64px;
+}
+
+
+/* Banner */
+#banner {
+  height: 100vh;
+  margin: 0;
+}
+
+#banner > div.center-align {
+  width: 100%;
+}
+
+/* Background Video */
+#bg-video {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+#bg-video > div.bg-cover {
+  background-color: #141618;
+  opacity: 0.8;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+#bg-video > div.bg-video-container {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#bg-video > div.bg-video-container > video {
+  min-width: 100%;
+  min-height: 100vh;
+}
+
+.banner-text {
+  z-index: 2;
+}
