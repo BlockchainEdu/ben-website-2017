@@ -28,7 +28,7 @@ Technically, you could open up the index page and follow from there, but if you'
 1. Fork the repo at `https://github.com/blockchainedu/ben-website`
 2. Create a new branch with the name `develop-(yourName)`
 3. Follow the instructions at `https://www.browsersync.io/` to install Browsersync
-4. Once Browsersync is installed, using your CLI, enter the command `browser-sync start --server --files "*.css" "*.js" "*.html"` to start watching files for changes
+4. Once Browsersync is installed, using your CLI, *change to the directory above the cloned repository*, enter the command `browser-sync start --server 'ben-website' --files 'ben-website'` to start watching *all* files for changes
 5. Open `localhost:3000` if it is not already opened
 
   ##### * Tip: Watching for CSS after compilation
