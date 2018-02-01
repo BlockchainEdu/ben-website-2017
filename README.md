@@ -2,13 +2,13 @@
 
 ## Overview
 
-This project was made with (Materialize)[], a framework based on Google's Material Design.
+This project was made with [Materialize](http://materializecss.com/) (not version 1.0), a framework based on Google's Material Design. If you are unfamiliar with Materialize, we suggest you read through the documentation. Pay attention to all of the components and styles available to you.
 
 ## Structure
 
 Each folder is divided into parent links, its sub-links and the SCSS / compiled CSS that goes along with it.
 
-Repeated sections, like the _Footer_ and _Header_ are in the *Components* section.
+**Repeated sections, like the _Footer_ and _Header_ are in the *Components* section and are loaded through `js/main.js`.**
 
 ## Development
 
