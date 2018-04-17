@@ -5,6 +5,7 @@ const cleanCss = require('gulp-clean-css');
 const uglify = require('gulp-uglify-es').default;
 const server = require('gulp-server-livereload');
 const watch = require('gulp-watch');
+const eslint = require('gulp-eslint');
 
 const paths = {
   sass: {
@@ -49,6 +50,13 @@ gulp.task('styles', () => {
     .pipe(gulp.dest(paths.styles.dest));
 });
 
+gulp.task('lint', () => {
+  return gulp.src(paths.scripts.src)
+    .pipe(eslint())
+    .pipe(eslint.format())
+    .pipe(eslint.failAfterError());
+});
+
 gulp.task('scripts', () => {
   return gulp.src(paths.scripts.src)
     .pipe(uglify())
@@ -78,10 +86,11 @@ gulp.task('server', () => {
     }));
 });
 
-gulp.task('build', gulp.series('clean', gulp.parallel('sass', 'styles', 'scripts', 'extLibs', 'assets', 'html')));
+gulp.task('build', gulp.series('clean', gulp.parallel('sass', 'lint', 'styles', 'scripts', 'extLibs', 'assets', 'html')));
 
 gulp.task('watch', () => {
   watch(paths.sass.src, gulp.series('sass'));
+  watch(paths.styles.src, gulp.series('lint'));
   watch(paths.styles.src, gulp.series('styles'));
   watch(paths.scripts.src, gulp.series('scripts'));
   watch(paths.assets.src, gulp.series('assets'));
