@@ -59,9 +59,7 @@ $ npm start
 
   You will see that there are several SCSS and CSS files in the project. The CSS has been compiled from the SCSS files.
 
-  If you are using an editor like **Atom** or **Sublime**, there are packages like [sass-autocompile](https://atom.io/packages/sass-autocompile) that will automatically compile and produce a CSS file on save. This is the easiest way to make sure your files are compiling correctly.
-
-  _Otherwise_, you will need to start a `watch` from your CLI. Follow the instructions **[Using Sass](http://sass-lang.com/documentation/file.SASS_REFERENCE.html#using_sass)** to watch your files.
+  If you're developing with `npm start`, then your scss files should be compiled into minified css files automatically.
 
   If you have any difficulties with setup, do not hesitate to contact us @ [tech@blockchainedu.org](mailto:tech@blockchainedu.org).
 
