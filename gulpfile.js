@@ -12,10 +12,6 @@ const paths = {
     src: 'src/**/*.scss',
     dest: 'dist/'
   },
-  styles: {
-    src: 'src/**/*.css',
-    dest: 'dist/'
-  },
   scripts: {
     src: ['src/**/*.js', '!src/**/*.min.js'],
     dest: 'dist/'
@@ -43,11 +39,6 @@ gulp.task('sass', () => {
     .pipe(sass())
     .pipe(cleanCss())
     .pipe(gulp.dest(paths.sass.dest));
-});
-
-gulp.task('styles', () => {
-  return gulp.src(paths.styles.src)
-    .pipe(gulp.dest(paths.styles.dest));
 });
 
 gulp.task('lint', () => {
@@ -86,12 +77,11 @@ gulp.task('server', () => {
     }));
 });
 
-gulp.task('build', gulp.series('clean', gulp.parallel('sass', 'lint', 'styles', 'scripts', 'extLibs', 'assets', 'html')));
+gulp.task('build', gulp.series('clean', gulp.parallel('sass', 'lint', 'scripts', 'extLibs', 'assets', 'html')));
 
 gulp.task('watch', () => {
   watch(paths.sass.src, gulp.series('sass'));
-  watch(paths.styles.src, gulp.series('lint'));
-  watch(paths.styles.src, gulp.series('styles'));
+  watch(paths.scripts.src, gulp.series('lint'));
   watch(paths.scripts.src, gulp.series('scripts'));
   watch(paths.assets.src, gulp.series('assets'));
   watch(paths.html.src, gulp.series('html'));
