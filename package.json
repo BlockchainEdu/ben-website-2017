@@ -1,0 +1,36 @@
+{
+  "name": "ben-website",
+  "version": "0.0.1",
+  "description": "Blockchain EDU website",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp dev",
+    "build": "gulp build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blockchainedu/ben-website.git"
+  },
+  "author": "Blockchain EDU",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/blockchainedu/ben-website/issues"
+  },
+  "homepage": "https://github.com/blockchainedu/ben-website#readme",
+  "devDependencies": {
+    "del": "^3.0.0",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.7.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "gulp": "github:gulpjs/gulp#4.0",
+    "gulp-clean-css": "^3.9.2",
+    "gulp-eslint": "^4.0.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-server-livereload": "^1.9.2",
+    "gulp-uglify-es": "^1.0.0",
+    "gulp-watch": "^5.0.0"
+  }
+}

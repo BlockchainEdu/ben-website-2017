@@ -1,3 +1,7 @@
+/* global QRCode */
+
+'use strict'
+
 const DONATION_DATA = [
   {
     name: 'ETH',
@@ -29,10 +33,10 @@ const DONATION_DATA = [
     address: '18GhYQLWsB2YQCrvQJRojBA29WEbaecG1Z',
     explorer: 'https://blockdozer.com/insight/address/'
   }
-];
+]
 
-const addDonationData = (data) => {
-  let qrId = 'qrcode-' + data.name;
+const createQrCode = (data) => {
+  let qrId = 'qrcode-' + data.name
   let donationData = `
     <div class="col s12 l6 center-align">
       <h5>${data.name}</h5>
@@ -41,13 +45,13 @@ const addDonationData = (data) => {
         <div class="qrcode" id="${qrId}"></div>
       </a>
     </div>
-  `;
-  $('#donate-direct').append(donationData);
-  new QRCode(document.getElementById(qrId), data.address);
+  `
+  $('#donate-direct').append(donationData)
+  return new QRCode(document.getElementById(qrId), data.address)
 }
 
 $(() => {
   for (let data of DONATION_DATA) {
-    addDonationData(data);
+    createQrCode(data)
   }
-});
+})
