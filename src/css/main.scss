@@ -91,3 +91,22 @@ div.offset-container {
 .banner-text {
   z-index: 2;
 }
+
+
+/* Custom CSS */
+.card.small {
+    height: 400px;
+}
+
+.card.large .card-image, .card.medium .card-image, .card.small .card-image {
+    max-height: 80%;
+    overflow: hidden;
+}
+
+.card .card-image .card-title {
+  text-shadow: 2px 2px 2px black;
+}
+
+.brand-logo>img {
+    max-width: 100%;
+}

@@ -4,6 +4,17 @@
 
 const DONATION_DATA = [
   {
+    name: 'BTC',
+    address: '38mwyr81YG2aZPxEbyfBYcEcAHUZ9kt9Vp',
+    explorer: 'https://blockchain.info/address/'
+  },
+  {
+    name: 'ETH',
+    address: '0x3e39a6a3bA3c61F90BA5279c01c735A3D233f713',
+    explorer: 'https://etherscan.io/address/'
+  }
+/*
+  {
     name: 'ETH',
     address: '0x92a054F55C3B8A47c041D1E378dfd48587eC9e7A',
     explorer: 'https://etherscan.io/address/'
@@ -33,6 +44,7 @@ const DONATION_DATA = [
     address: '18GhYQLWsB2YQCrvQJRojBA29WEbaecG1Z',
     explorer: 'https://blockdozer.com/insight/address/'
   }
+  */
 ]
 
 const createQrCode = (data) => {
