@@ -110,3 +110,102 @@ div.offset-container {
 .brand-logo>img {
     max-width: 100%;
 }
+
+.media-images img {
+    -webkit-filter: grayscale(100%) opacity(70%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%) opacity(70%);
+}
+
+nav {
+ background: transparent!important; 
+ box-shadow: 0 0px 0px 0 rgba(0,0,0,0), 0 0px 0px 0 rgba(0,0,0,0), 0 0px 0px 0px rgba(0,0,0,0);
+}
+
+nav a {
+    color: #000!important;
+}
+
+nav ul a {
+    color: #000!important;  
+}
+
+div.home-container {
+    z-index: 2;
+}
+
+div.navbar-fixed {
+    z-index: 3;
+}
+
+#white-bar nav {
+    z-index: 1;
+    background: #fff!important;
+}
+
+div.navbar-fixed {
+  position:relative!important;
+}
+
+.navbar-fixed nav {
+  position: relative;
+}
+
+#banner {
+    height: 650px!important;
+    margin: 0;
+}
+
+@media only screen and (max-width:1300px) {
+  #banner {
+    height: 400px!important;
+  }
+}
+
+@media only screen and (max-width:1100px) {
+  .banner-text h1 {
+    font-size: 4rem!important;
+  }
+  #banner {
+    height: 200px!important;
+  }
+}
+
+@media only screen and (max-width:740px) {
+  .banner-text h1 {
+    font-size: 2rem!important;
+  }
+  #banner {
+    height: 150px!important;
+  }
+}
+
+#bg-video>div.bg-video-container {
+    height: 750px!important;
+}
+
+.home-card {
+  padding-top: 20%;
+  padding-bottom: 25%;
+}
+
+.card-content {
+  color: #fff!important;
+}
+
+.row .section {
+margin-bottom: 0px;
+}
+
+#footer {
+  background-color:#000;
+  color: #fff;
+}
+
+.side-nav li>a {
+    color: #fff!important;
+}
+
+body {
+    background-color: #fff;
+    color: #000;
+}
