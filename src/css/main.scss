@@ -129,19 +129,6 @@ nav ul a {
     color: #000!important;  
 }
 
-div.home-container {
-    z-index: 2;
-}
-
-div.navbar-fixed {
-    z-index: 3;
-}
-
-#white-bar nav {
-    z-index: 1;
-    background: #fff!important;
-}
-
 div.navbar-fixed {
   position:relative!important;
 }
@@ -193,7 +180,7 @@ div.navbar-fixed {
 }
 
 .row .section {
-margin-bottom: 0px;
+  margin-bottom: 0px;
 }
 
 #footer {
