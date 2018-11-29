@@ -5,7 +5,7 @@
 const DONATION_DATA = [
   {
     name: 'BTC',
-    address: '38mwyr81YG2aZPxEbyfBYcEcAHUZ9kt9Vp',
+    address: '36e6XALzH1dQoMv1h71LFNSRgiGXxBCpur',
     explorer: 'https://blockchain.info/address/'
   },
   {
