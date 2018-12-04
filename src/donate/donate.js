@@ -12,6 +12,11 @@ const DONATION_DATA = [
     name: 'ETH',
     address: '0x3e39a6a3bA3c61F90BA5279c01c735A3D233f713',
     explorer: 'https://etherscan.io/address/'
+  },
+  {
+    name: 'WAN',
+    address: '0x27ee92dBFC719bc9CD69B5EE6Bc9c66a2e1b5749',
+    explorer: 'https://explorer.wanchain.org/block/addr/'
   }
 /*
   {
