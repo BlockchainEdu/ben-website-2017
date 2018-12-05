@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="description" content="Blockchain Education Network (BEN)">
+  <meta name="author" content="Kelvin Fichter 2017">
+
+  <title>Blockchain 101 | Blockchain Education Network</title>
+
+  <!-- STYLES -->
+  <link href="/css/materialize.css" rel="stylesheet">
+  <link href="/css/main.css" rel="stylesheet">
+  <link href="/about/about.css" rel="stylesheet">
+
+  <!-- FONTS -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+</head>
+
+<body>
+<div id="header"></div>
+
+<div id="sponsors" class="container offset-container">
+
+<div class="row">
+  <div class="row section">
+      <div class="col s12 m1 offset-m2 center-align">
+        <a href="/playbook"><b>← Return to Playbook</b></a>
+      </div>
+    </div>
+  <div class="col s12 m8 offset-m2" style="background-color:#ffbf80">
+    <div class="row section">
+      <div class="col s12 m12 center-align">
+        <h1><b>Blockchain 101</b></h1>
+      </div>
+    <div class="row section description-text">
+      <div class="col s12 m2 center-align offset-m4">
+        <b>Type</b><br>
+        <i>Lesson</i>
+      </div>
+      <div class="col s12 m2 center-align">
+        <b>Rewards</b>
+        <img src="/assets/playbook/certificate-outline-filled.png" width="80%">
+      </div>
+    </div>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col s12 m8 offset-m2" style="background-color:#99e6ff">
+    <div class="row section">
+      <div class="col s12 m2 center-align">
+        <img src="/assets/playbook/projector-screen-circle.png" width="100%">
+      </div>
+      <div class="col s12 m10 center-align">
+        <h4><b>This module has companion slides.</b></h4>
+        <h4><b><a href="https://docs.google.com/presentation/d/1qLg8XBwgFltdT-wJvL31MAVFzjThjfGV7F67_ZeL0D8/edit?usp=sharing" target="_blank">Click here.</a></b></h4>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row description-text">
+  <div class="row section">
+    <div class="col s12 m8 offset-m2">
+      <h4>What you will learn</h4>
+    </div>
+  </div>
+  <div class="row section">
+    <div class="col s12 m8 description-text offset-m2">
+      <p><ol>
+        <li><a href="#section-one">Background</a></li>
+        <li><a href="#section-two">What is Blockchain?</a></li>
+        <li><a href="#section-three">The most popular blockchain - Bitcoin</a></li>
+        <li><a href="#section-four">Problems with Monetary System</a></li>
+        <li><a href="#section-five">Why is Blockchain Important?</a></li>
+      </ol></p>
+    </div>
+  </div>
+</div>
+
+<div class="row description-text">
+  <div class="row section">
+    <div class="col s12 m8 offset-m2">
+      <h4 id="section-one">Background</h4>
+    </div>
+  </div>
+  <div class="row section">
+    <div class="col s12 m8 description-text offset-m2">
+      <p>In a <b>traditional network</b>, nodes talk with a central hub which then relays the information to the other nodes. In a <b>peer-to-peer network</b>, nodes are connected and share resources without a central hub.</p>
+
+      <p><b>Consensus</b> (agreement) in centralized networks is determined by the central hub. Consensus in peer to peer networks is usually determined by a vote (51%, unanimous, reputation-based voting, etc) BUT how do you protect against malicious voters?</p>
+    </div>
+  </div>
+</div>
+
+<div class="row description-text">
+  <div class="row section">
+    <div class="col s12 m8 offset-m2">
+      <h4 id="section-two">What is blockchain?</h4>
+    </div>
+  </div>
+  <div class="row section">
+    <div class="col s12 m8 description-text offset-m2">
+      <p>A blockchain is a list of records which are stored in “blocks” of data. These blocks string together to form a “chain” of blocks or “blockchain”. They are append-only. Once a block is established it cannot be changed. One can only add more blocks to the chain</p>
+
+      <p>Each node in a blockchain network has a full copy of the blockchain. Uses cryptography and digital signatures to prove identity, authenticity, and enforce read/write access writes. Contains mechanism that makes it hard to change records - It is costly for nodes to submit lies because they must present a proof of work to add to the chain.</p>
+
+      <p>A <b>proof of work</b> is a piece of data which is difficult to produce but easy for others to verify and which satisfies certain requirements. A user must produce the correct calculation to validate proof of work.</p>
+
+      <p>Blockchain combines elements from economics, math, computer science, and philosophy
+        <ul>
+          <li>Computer Science – cryptography, SHA-256 mining algorithm</li>
+          <li>Math – probability, elliptic curve cryptography</li>
+          <li>Economics – monetary policy, inflation rate, game theory</li>
+          <li>Law - regulations, foreign policy</li>
+          <li>Philosophy – Cypherpunk Movement, privacy, freedom</li>
+        </ul>
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="row description-text">
+  <div class="row section">
+    <div class="col s12 m8 offset-m2">
+      <h4 id="section-three">The most popular blockchain - Bitcoin</h4>
+    </div>
+  </div>
+  <div class="row section">
+    <div class="col s12 m8 description-text offset-m2">
+      <p>Bitcoin (capital “B”) is a blockchain network that keeps track of the holders of a cryptocurrency denominated in bitcoin (lowercase “b”). Bitcoin transactions are clumped together into blocks and then broadcast. In order for a block to be accepted by Bitcoin network participants, miners must complete a proof of work which covers all of the data in the block.</p>
+
+      <p>This makes it unpredictable which worker computer in the network will be able to generate the next block. On average, one Block is generated every 10 minutes.</p>
+
+      <p>An author known only by the alias of “Satoshi Nakamato” published of the original Bitcoin Whitepaper, “Bitcoin: A Peer to Peer Electronic Cash System”. Could be a man, woman, or group of people.</p>
+
+      <p>This paper was the inception of Bitcoin in October 31st 2008. Nakamoto released the software Bitcoin Core in 2009. The first known transaction was to Hal Finney, notorious cypherpunk, in 2009. The search for Nakamoto is considered by many to undermine the anti-authoritarian premise of bitcoin.</p>
+    </div>
+  </div>
+</div>
+
+<div class="row description-text">
+  <div class="row section">
+    <div class="col s12 m8 offset-m2">
+      <h4 id="section-four">Problems with Monetary System</h4>
+    </div>
+  </div>
+  <div class="row section">
+    <div class="col s12 m8 description-text offset-m2">
+      <p>Money has five characteristics - relatively scarce, easily recognizable, divisible, fungible, portable. And 3 purposes - medium of exchange, unit of account, store of value.</p>
+
+      <p>Centralized solutions require trust in that entity.
+      <ul>
+        <li>Overhead costs (operations, salaries)</li>
+        <li>Transactions take business days to process.</li>
+        <li>Cash and gold is transported in gas guzzling trucks w/ paid security.</li>
+      </ul>
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="row description-text">
+  <div class="row section">
+    <div class="col s12 m8 offset-m2">
+      <h4 id="section-five">Why is Blockchain Important?</h4>
+    </div>
+  </div>
+  <div class="row section">
+    <div class="col s12 m8 description-text offset-m2">
+      <ol>
+        <li>
+          <ul>
+            <li>Networked Integrity</li>
+            <li><i>“Acting without integrity costs a lot more time, energy and reputation.”</i></li>
+            <li>Problem - Double spending</li>
+            <li>Solution - Distributed peer-to-peer network combined with cryptography to reach consensus. Immutability</li>
+          </ul>
+        </li>
+<li><p>Distributed Power
+“No person or organization has outsized control over the whole.”
+Problem - Third Party needed to maintain the network?
+Solution - Users maintaining the network </p></li>
+<li><p>Value as Incentive
+“All stakeholders have aligned incentives. You can both work for your own selfish interests, but that will also benefit the whole.”
+Problem - People are driven by different incentives
+Solution - Reputation matters, it is too expensive to cheat</p></li>
+<li><p>Security
+“Because of the distributed nature of blockchain technology reckless behavior by one person only damages that person.”
+Problem - Hacking, fraud, identity theft etc.
+Solution - Public Key Infrastructure (PKI), Antifragility</p></li>
+<li><p>Privacy
+“People get to be in complete control of their data.”
+Problem - Data exposure
+Solution - Eliminate the need to trust others = eliminate the need to know the true identities of those others in order to interact with them. </p></li>
+<li><p>Rights Preserved
+“Rights and freedoms are clear and enforceable, as they become part of the blockchain.”
+Problem - Enforcing rights in policy
+Solution - Enforcing rights in code. Ex: (smart contracts)</p></li>
+<li><p>Inclusion
+“Everyone in the world should have the ability to participate in the global blockchain economy.”
+Problem - Half of the world does not own a bank account
+Solution - Simplified payment verification (SPV) made it so that even a flip phone could function as a conduit for funds. </p></li>
+</ol>
+
+<p>Evolution
+1st generation blockchain - payments 
+Bitcoin, Monero, Zcash, Ripple
+2nd generation blockchain - programming
+Ethereum, Neo, EOS, NEM
+3rd generation blockchain - new scaling methods
+Cardano, Stellar</p>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="row section">
+    <div class="col s12 m8 offset-m2 center-align">
+      <h4><i>This module is part of the BEN Playbook. <a href="/join">Join BEN</a> to get access to the rest of the Playbook when it launches!</i></h4>
+    </div>
+    <div class="col s12 m2 offset-m5">
+      <img src="/assets/images/playbook-3d-cover.png" width="100%">
+    </div>
+  </div>
+</div>
+
+    </div>
+  </div>
+  <div id="footer"></div>
+
+  <!-- LOAD SCRIPTS -->
+  <script src="/js/jquery.min.js"></script>
+  <script src="/js/materialize.min.js"></script>
+  <script src="https://use.fontawesome.com/8966490cfc.js"></script>
+  <script src="/js/main.js"></script>
+</body>
+
+</html>
