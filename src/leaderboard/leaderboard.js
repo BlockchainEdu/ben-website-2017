@@ -1,15 +1,11 @@
 var stats = {};
-stats['MIT'] = 15;
-stats['Northwestern University'] = 11;
-stats['Ryerson University'] = 5;
-stats['Boston College'] = 5;
-stats['Tufts University'] = 4;
-stats['Columbia University'] = 4;
-stats['University of Delaware'] = 3;
-stats['Carleton University'] = 3;
-stats['University of Puerto Rico'] = 3;
-stats['IIT Bombay'] = 3;
-stats['Temple University'] - 3;
+stats['MIT'] = ['/assets/logos/seals/mit.png',14,'USA'];
+stats['Northwestern University'] = ['/assets/logos/seals/northwestern-university.png',10,'USA'];
+stats['BITS Pilani - Goa Campus'] = ['/assets/logos/seals/bits-pilani.png',7,'India'];
+stats['Ryerson University'] = ['/assets/logos/seals/ryerson-university.png',5,'USA'];
+stats['Boston College'] = ['/assets/logos/seals/boston-college.png',4,'USA'];
+stats['Columbia University'] = ['/assets/logos/seals/columbia-university.png',4,'USA'];
+stats['Tufts University'] = ['/assets/logos/seals/tufts-university.png',4,'USA'];
 
 window.onload = function() {
   var result = document.getElementById('total-students');
@@ -24,20 +20,42 @@ window.onload = function() {
     console.log(value);
     sum += value;
   }
+
+  var color = 1;
   
+  var rank = 0;
+
   for(key in stats){
-    var value = stats[key];
+    var image = stats[key][0];
+    console.log(image);
+    var value = stats[key][1];
     console.log(value);
+    var country = stats[key][2];
 
     var school = key;
+    var schoolimage = image;
     var schoolvalue = value;
 
     var decimal = value / 15;
     var percent = (decimal*100).toFixed(1) + "%";
 
-    var one = '<div class="row"><div class="card white"><div class="card-content" style="color:#000!important"><span style="font-weight:600; display:inline">' + school + '</span><span class="number-of-students" style="font-weight:600; display:inline; float:right">'+schoolvalue+'</span><div id="progressbar"><div style="width:'+percent+'"></div></div></div></div></div>';
+    var backgroundcolor = "";
 
+    if (color % 2 == 0){
+      backgroundcolor = "lemonchiffon";
+    }
+
+    var one = '<div class="row" style="background-color: ' + backgroundcolor + '">'
+     + '<div class="col s12 m1 center-align offset-m1">' + rank + '</div>'
+     + '<div class="col s12 m1 center-align"><img src="' + schoolimage + '" height="75px"></div>'
+     + '<div class="col s12 m2 center-align">' + school + '</div>'
+     + '<div class="col s12 m2 center-align">'+schoolvalue+'</div>'
+     + '<div class="col s12 m2 center-align">' + country + '</div>'
+     + '</div>';
+
+    rank += 1;
     all += one;
+    color += 1;
   }
 
   test.innerHTML = all;
@@ -54,22 +72,4 @@ window.onload = function() {
   console.log(sum);
   result.innerHTML = sum; 
 
-
-
 }
-    /*
-  
-    var inputs = document.getElementsByClassName('number-of-students');
-    var result = document.getElementById('total-students');
-    var sum = 0; 
-
-    for(var i=0; i<inputs.length; i++) {
-        var ip = inputs[i];
-
-        sum += parseInt(ip.value);
-
-    }
-
-    result.value = sum;
-    result.innerHTML = sum;
-*/
