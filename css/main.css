@@ -40,7 +40,7 @@ body {
 
 /* Home Page */
 .home-container {
-  background-image: url('../assets/images/ben_background_wide.png');
+  background-image: url('/assets/images/ben_background_wide.png');
   padding-top:10%;
   padding-bottom:10%;
   margin-bottom:5%;
