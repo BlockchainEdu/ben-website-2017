@@ -11,7 +11,23 @@
 
 nav {
   background: black;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  width: 90%;
+  margin-left:5%;
+  margin-right:5%;
 }
+
+@media only screen and (max-width:740px) {
+  nav {
+    background: black;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 100%;
+  }
+}
+
+
 
 .nav-wrapper > a
 .nav-wrapper > ul > li > a {

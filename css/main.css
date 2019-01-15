@@ -51,6 +51,12 @@ body {
   font-size: 6rem;
 }
 
+@media only screen and (max-width:740px) {
+  #home-title {
+    font-size: 3rem;
+  }
+}
+
 /* Cards */
 .card.small {
     height: 400px;
