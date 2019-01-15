@@ -1,0 +1,55 @@
+/* Navbar */
+.brand-logo {
+  height: 100%;
+}
+
+.brand-logo > img {
+  padding: 10px;
+  height: 100%;
+  width: auto;
+}
+
+nav {
+  background: black;
+}
+
+.nav-wrapper > a
+.nav-wrapper > ul > li > a {
+  color: white;
+}
+
+.nav-wrapper > ul > li:hover {
+  background-color: rgba(255,255,255,0.2);
+}
+
+#sidenav-overlay {
+  z-index: 97;
+}
+
+.side-nav {
+  background-color: black;
+  max-width: 75%;
+}
+
+.side-nav li > a {
+  color: white;
+}
+
+div.navbar-fixed {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.dropdown-content {
+  background-color: black;
+}
+
+.dropdown-content li > a,
+.dropdown-content li > span {
+  color: white;
+}
+
+.dropdown-content > li:hover {
+  background-color: rgba(255,255,255,0.2);
+}
