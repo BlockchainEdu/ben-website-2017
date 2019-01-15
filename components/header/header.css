@@ -26,12 +26,12 @@ nav {
   z-index: 97;
 }
 
-.side-nav {
+.sidenav {
   background-color: black;
   max-width: 75%;
 }
 
-.side-nav li > a {
+.sidenav li > a {
   color: white;
 }
 
