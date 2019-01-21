@@ -6,6 +6,15 @@ Welcome to the code repository for the [BEN Website](https://www.blockchainedu.o
 
 This project was made with [Materialize](http://materializecss.com/) (not version 1.0), a framework based on Google's Material Design. If you are unfamiliar with Materialize, we suggest you read through the documentation. Pay attention to all of the components and styles available to you.
 
+## New Instructions
+
+Run 
+...
+$ bundle exec jekyll serve
+...
+
+Preview your local Jekyll site in your web browser at http://localhost:4000.
+
 ## Structure
 
 Each folder is divided into parent links, its sub-links and the SCSS / compiled CSS that goes along with it.
