@@ -19,7 +19,7 @@ Each folder is divided into parent links, its sub-links and the SCSS / compiled 
   * How to _FORK_ GitHub repositories, close issues, make decent commits, and pull requests
   * Use of a text editor like Atom or Sublime
 
-### Development
+## Development
 
 Technically, you could open up the index page and follow from there, but if you'd like for things to update on demand to make development easier, follow these steps:
 
@@ -37,8 +37,7 @@ $ git clone git@github.com:<username>/ben-website.git
 $ git checkout -b develop-<some-new-feature>
 ```
 
-3. Install the project's requirements:
-Follow the instructions here: https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/
+3. Install the project's requirements by following the instructions here: https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/
 
 4. Start the website up:
 ```
