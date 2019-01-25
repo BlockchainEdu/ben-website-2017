@@ -76,4 +76,3 @@ _followed by the issue number_** to close it. I.e. `Closes #10 - Add any other d
 4. When you are ready to share your changes with the organization, follow the instructions at [GitHub Help - Creating a Pull Request](https://help.github.com/articles/creating-a-pull-request/).
 5. The organization will review your pull request and merge changes if approved.
 6. Pat yourself on the back for contributing!
-
