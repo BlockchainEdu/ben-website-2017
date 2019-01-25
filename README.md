@@ -37,7 +37,12 @@ $ git clone git@github.com:<username>/ben-website.git
 $ git checkout -b develop-<some-new-feature>
 ```
 
-3. Install the project's requirements by following the instructions here: https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/
+3. Install the project's requirements. Ruby must be installed. Full instructions here: https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/
+
+```
+$ gem install bundler
+$ bundle install
+```
 
 4. Start the website up:
 ```
