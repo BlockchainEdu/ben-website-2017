@@ -4,16 +4,7 @@
 
 Welcome to the code repository for the [BEN Website](https://www.blockchainedu.org)!
 
-This project was made with [Materialize](http://materializecss.com/) (not version 1.0), a framework based on Google's Material Design. If you are unfamiliar with Materialize, we suggest you read through the documentation. Pay attention to all of the components and styles available to you.
-
-## New Instructions
-
-Run 
-...
-$ bundle exec jekyll serve
-...
-
-Preview your local Jekyll site in your web browser at http://localhost:4000.
+This project was made with [Github Pages](https://pages.github.com/), [Jekyll](https://jekyllrb.com/), and [Materialize](http://materializecss.com/) (not version 1.0). If you are unfamiliar with these tools, read through the documentation. Pay attention to all of the components and styles available to you.
 
 ## Structure
 
@@ -21,17 +12,14 @@ Each folder is divided into parent links, its sub-links and the SCSS / compiled 
 
 **Repeated sections, like the _Footer_ and _Header_ are in the *Components* section and are loaded through `js/main.js`.**
 
-## Development
-
 ### Prerequisites
 
   * Knowledge of SCSS and CSS
   * Use of the CLI
   * How to _FORK_ GitHub repositories, close issues, make decent commits, and pull requests
   * Use of a text editor like Atom or Sublime
-  * [Node](https://nodejs.org), preferably 8.11.1 LTS or greater
 
-### Developing
+### Development
 
 Technically, you could open up the index page and follow from there, but if you'd like for things to update on demand to make development easier, follow these steps:
 
@@ -50,16 +38,14 @@ $ git checkout -b develop-<some-new-feature>
 ```
 
 3. Install the project's requirements:
-```
-$ npm install
-```
+Follow the instructions here: https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/
 
 4. Start the website up:
 ```
-$ npm start
+$ bundle exec jekyll serve
 ```
 
-5. Go to http://localhost:8000 if it doesn't load automatically.
+5. Go to http://localhost:4000 if it doesn't load automatically.
 
 
   ##### * Tip: Watching for CSS after compilation
@@ -91,7 +77,3 @@ _followed by the issue number_** to close it. I.e. `Closes #10 - Add any other d
 4. When you are ready to share your changes with the organization, follow the instructions at [GitHub Help - Creating a Pull Request](https://help.github.com/articles/creating-a-pull-request/).
 5. The organization will review your pull request and merge changes if approved.
 6. Pat yourself on the back for contributing!
-
-### Production
-
-_Instructions to be updated_
