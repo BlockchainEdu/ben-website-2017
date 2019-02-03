@@ -232,5 +232,17 @@ ul:not(.browser-default) > li {
 }
 
 ul.browser-default li {
-  list-style-type: initial;
+    list-style-type: initial;
+}
+
+.nav-wrapper ul:not(.browser-default) {
+  list-style-type: none;
+}
+
+.nav-wrapper ul:not(.browser-default) > li {
+    list-style-type: none;
+}
+
+.nav-wrapper ul.browser-default li {
+    list-style-type: none;
 }
