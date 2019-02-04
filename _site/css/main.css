@@ -246,3 +246,18 @@ ul.browser-default li {
 .nav-wrapper ul.browser-default li {
     list-style-type: none;
 }
+
+/* Form Custom CSS */
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: gray;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: gray;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: gray;
+}
