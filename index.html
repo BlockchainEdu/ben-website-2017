@@ -6,7 +6,7 @@ layout: default
 <body>
 
 <div class="home-container" style="padding-top:1%">
-  <div id="header" style="margin-bottom:10%"></div>
+  {% include navbar.html %}
   <div id="home-title" class="center-align">EDUCATE & EMPOWER</div>
   <div id="home-button" class="center-align"><a href="/about/index.html" class="waves-effect waves-light btn btn-sleek">LEARN MORE</a></div>
 </div>
@@ -25,6 +25,79 @@ layout: default
     </div>
   
   </div>
+  <!--
+<script type="text/javascript" src="//app.sgwidget.com/js/sg-widget.js"></script>
+<style>.sendgrid-subscription-widget 
+
+input { padding: .5em .5em .55em; font-size: .8em; font-family: sans-serif } 
+
+.sendgrid-subscription-widget #sg_signup_first_name, 
+
+.sendgrid-subscription-widget #sg_signup_last_name {
+  margin-right: .5em
+} 
+
+.sendgrid-subscription-widget #sg-submit-btn {
+  display: inline-block; color: #444; border: 1px solid #ccc; background: #ddd; box-shadow: 0 0 5px -1px rgba(0, 0, 0, .2); cursor: pointer; vertical-align: middle; max-width: 100px; padding: .5em; margin: 0 .4em; text-align: center; font-size: .9em; font-family: sans-serif
+}
+
+.sendgrid-subscription-widget #sg-submit-btn:active {
+  color: #8e8b8b; box-shadow: 0 0 5px -1px rgba(0, 0, 0, .6)
+}
+
+.sendgrid-subscription-widget .response {
+  display: none; font-family: sans-serif; font-size: .8em
+}
+
+.sendgrid-subscription-widget .success {
+  color: green
+}
+
+.sendgrid-subscription-widget .error, .sendgrid-subscription-widget .sg-consent-text a {
+  color: #3097d1
+}
+
+.sendgrid-subscription-widget .sg-consent-text {
+  font-size: .9em
+}
+
+.sendgrid-subscription-widget .sg-consent-text label {
+  font-weight: 400
+}
+
+.sendgrid-subscription-widget .required {
+  outline: 1px solid #f00;
+}
+
+.sendgrid-subscription-widget .sg_custom {
+  margin-left: 5px;
+}
+
+.sendgrid-subscription-widget .checkbox_label {
+  padding-left: 3px;
+
+}
+</style>-->
+<!--style="width:50%; margin: 0 auto;"-->
+<!--<div id="sendgrid-subscription-widget" class="sendgrid-subscription-widget center-align" data-emailerror="Please enter a valid email address" data-nameerror="Please enter your name" data-checkboxerror="Please tick the box to accept our conditions" >
+  <form id="sg-widget" data-token="eef9ab9df7a8cd8c902674c25aec29e7" onsubmit="return false;">
+    <div class="sg-response" id="sg-response"></div>
+    <input id="sg_signup_first_name" type="text" name="sg_signup_first_name" placeholder="First Name" required style="color: rgb(255, 255, 255);">
+    <input id="sg_signup_last_name" type="text" name="sg_signup_last_name" placeholder="Last Name" required style="color: rgb(255, 255, 255);">
+    <input id="sg_email" type="email" name="sg_email" placeholder="you@example.com" required style="color: rgb(255, 255, 255);">-->
+<!--    <input type="submit" id="sg-submit-btn" value="Subscribe">-->
+<!--    <input type="submit" id="sg-submit-button" class="waves-effect waves-light btn btn-sleek" value="Subscribe" style="    color: white;
+    background: rgba(0,0,0,1);
+    border-radius: 1px;
+    border: 1px solid white;
+    padding: 0.2rem 2rem;
+    height: auto;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 50px;">    
+  </form>
+</div>
+-->
 
 <!-- Global Reach -->
   <div class="row section">
@@ -558,7 +631,7 @@ layout: default
 -->
     </div>
 
-  <div id="footer" style="background-color:#000"></div>
+  {% include footer.html %}
 
   <!-- LOAD SCRIPTS -->
   <script src="/js/jquery.min.js"></script>
