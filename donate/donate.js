@@ -5,18 +5,23 @@
 const DONATION_DATA = [
   {
     name: 'BTC',
-    address: '36e6XALzH1dQoMv1h71LFNSRgiGXxBCpur',
-    explorer: 'https://blockchain.info/address/'
+    address: 'bc1qhcq8d4c2tkn4txsa9856p80cvjk3dradzjrhyg',
+    explorer: 'https://blockstream.info/address/'
   },
   {
     name: 'ETH',
-    address: '0x3e39a6a3bA3c61F90BA5279c01c735A3D233f713',
+    address: '0x66Aa8Bee5366b6b48811AE0Dac9Fe5e1EEfE1621',
     explorer: 'https://etherscan.io/address/'
+  },
+  {
+    name: 'DAI',
+    address: '0x66Aa8Bee5366b6b48811AE0Dac9Fe5e1EEfE1621',
+    explorer: 'https://etherscan.io/token/0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359?a='
   },
   {
     name: 'WAN',
     address: '0x27ee92dBFC719bc9CD69B5EE6Bc9c66a2e1b5749',
-    explorer: 'https://explorer.wanchain.org/block/addr/'
+    explorer: 'https://explorer.wanchain.org/address/'
   }
 /*
   {
