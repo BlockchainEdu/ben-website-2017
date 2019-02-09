@@ -1,4 +1,19 @@
 var stats = [
+["northwestern-university.png", "Northwestern University", "15", "USA"],
+["boston-college.png", "Boston College", "8", "USA"],
+["ryerson-university.png", "Ryerson University", "7", "Canada"],
+["temple-university.png", "Temple University", "7", "USA"],
+["bits-pilani.png", "BITS Pilani - Goa Campus", "6", "India"],
+["columbia-university.png", "Columbia University", "6", "USA"],
+["tufts-university.png", "Tufts University", "6", "USA"],
+["university-of-south-florida.png", "University of South Florida", "6", "USA"],
+["mit.png", "MIT", "5", "USA"],
+["carnegie-mellon-university.png", "Carnegie Mellon University", "5", "USA"],
+["northeastern-university.png", "Northeastern University", "5", "USA"],
+["university-of-miami.png", "University of Miami", "5", "USA"],
+];
+
+var stats_2 = [
 ["rochester-institute-of-technology.png", "RIT", "117", "USA"],
 ["uc-berkeley.png", "UC Berkeley", "84", "USA"],
 ["university-of-michigan.png", "University of Michigan", "78", "USA"],
