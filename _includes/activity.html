@@ -1,0 +1,37 @@
+<div class="row">
+  <div class="col s12 m12 center-align" style="background-color:#ffbf80">
+    <div class="row section">
+      <div class="col s12 m12 center-align">
+        <h1><b>{{ include.title }}</b></h1>
+      </div>
+      <img src="/assets/images/business-meeting.png" width="200px">
+    </div>
+  </div>
+</div>
+
+<div class="row">
+    <div class="col s12 m3">
+    <div class="row">
+      <h5>Contributors</h5>
+      <p id="contributors">
+      </p>
+    </div>
+    <div class="row">
+      <h5>Group Size</h5>
+      	{{ include.group_size}}
+    </div>
+  </div>
+
+	<div class="col s12 m8">
+	    {{ include.content    | markdownify }}
+	    {{ " 
+#### Interested in Doing this Activity?
+Aside from the resources above, BEN can discuss one-on-one and help you do this activity. Reach out to us through our Slack or email [contact@blockchainedu.org](mailto:contact@blockchainedu.org) If you are not on our Slack yet, [apply to join BEN here](join).
+
+#### Did You Do This Activity?
+Make a blog post and send it to us through Slack. We would love to feature it in our next newsletter.
+
+#### Can This Activity Be Better?
+Thoughts on how to make the activity better? Let us know at [contact@blockchainedu.org](mailto:contact@blockchainedu.org). Our modules improve every time they are done." || markdownify}}
+	</div>
+</div>

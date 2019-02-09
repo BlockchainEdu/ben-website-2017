@@ -1,5 +1,5 @@
 ---
-title: How to Start a Blockchain Club
+title: Start a Blockchain Club
 layout: default
 ---
 
@@ -7,38 +7,10 @@ layout: default
 <div id="header"></div>
 
 <div class="container offset-container">
-
-<div class="row">
-  <div class="col s12 m12 center-align" style="background-color:#ffbf80">
-    <div class="row section">
-      <div class="col s12 m12 center-align">
-        <h1><b>Start a Blockchain Club</b></h1>
-      </div>
-      <img src="/assets/images/business-meeting.png" width="200px">
-    </div>
-  </div>
-</div>
-
-<div class="row">
-    <div class="col s12 m3">
-    <div class="row">
-      <h5>Contributors</h5>
-      <p>
-        <a href="https://www.linkedin.com/in/gosathya/" target="_blank"><img src="/assets/images/sathya-peri.jpg" width="50px" style="border-radius: 50%;"></a>
-        <a href="https://www.twitter.com/erickpinos/" target="_blank"><img src="/assets/images/erick-pinos.jpg" width="50px" style="border-radius: 50%;"></a>
-      </p>
-    </div>
-    <div class="row">
-      <h5>Group Size</h5>
-        <p>👥 Groups</p>
-    </div>
-  </div>
-
-
-  <div class="col s12 m8">
-    {{ "
-
-#### Introduction
+{% include activity.html
+  title='Start a Blockchain Club'
+  group_size='<p>👥 Groups</p>'
+  content = "#### Introduction
 While it is not necessary to start or be a part of a blockchain club at your school to be a BEN member, it is a great way to bring together your local community to learn and teach each other about blockchain. BEN has helped start and grow blockchain clubs at universities across the world and can provide a lot of guidance in organizing your club.  
 
 
@@ -106,13 +78,11 @@ While it is not necessary to start or be a part of a blockchain club at your sch
 * Coordinate so food arrives at the END of the talk. People who take food at the beginning might try to eat and run.
 
 BEN is in contact with tons of speakers across the blockchain space. Reach out to learn more.
-
-    " | markdownify }}
-  </div>
-</div>
-
+" 
+%}
 
 </div>
+
 
 {% include footer.html %}
 
@@ -121,4 +91,5 @@ BEN is in contact with tons of speakers across the blockchain space. Reach out t
 <script src="/js/materialize.min.js"></script>
 <script src="https://use.fontawesome.com/8966490cfc.js"></script>
 <script src="/js/main.js"></script>
+<script src="/playbook/contributors.js"></script>
 </body>
