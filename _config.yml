@@ -1,2 +1,4 @@
 theme: jekyll-theme-cayman
 google_analytics: UA-133285595-1
+plugins:
+  - jekyll-redirect-from
