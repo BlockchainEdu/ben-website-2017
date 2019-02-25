@@ -26,6 +26,137 @@
 
 
 </head>
+<nav>
+  <div class="nav-wrapper">
+    <a href="/" class="brand-logo"><img src="/assets/images/ben_full_logo.png"></a>
+    <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    <ul class="right hide-on-med-and-down">
+      <li><a href="/about">ABOUT</a></li>
+      <li><a href="/join">JOIN</a></li>
+      <li><a href="/events">EVENTS</a></li>
+      <li><a href="/partners">PARTNERS</a></li>
+      <li><a href="/resources">RESOURCES</a></li>
+      <li><a href="/donate">DONATE</a></li>
+      <li><a href="https://medium.com/blockchainedu">BLOG</a></li>
+      <li><div netlify-identity-login></div>LOGIN</li>
+      <li><div netlify-identity-signup></div>SIGNUP</li>
+    </ul>
+  </div>
+</nav>
+
+<ul class="sidenav" id="mobile-demo">
+  <li><a href="/">HOME</a></li>
+  <li><a href="/about">ABOUT</a></li>
+  <li><a href="/join">JOIN</a></li>
+  <li><a href="/events">EVENTS</a></li>
+  <li><a href="/partners">PARTNERS</a></li>
+  <li><a href="/resources">RESOURCES</a></li>
+  <li><a href="/donate">DONATE</a></li>
+  <li><a href="https://medium.com/blockchainedu">BLOG</a></li>
+</ul>
+
+<script>
+ document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.sidenav');
+    var instances = M.Sidenav.init(elems, options);
+  });
+
+  // Or with jQuery
+
+  $(document).ready(function(){
+    $('.sidenav').sidenav();
+  });
+</script>
+
+<!--
+<nav style="margin-top: 2%; margin-bottom: 2%; width: 90%; margin-left:5%; margin-right:5%">
+  <div class="nav-wrapper">
+    <a href="/" class="brand-logo"><img src="/assets/images/ben_full_logo.png"></a>
+    <a href="#" data-activates="mobile-nav" class="button-collapse"><i class="material-icons">menu</i></a>
+    <ul class="right hide-on-med-and-down">
+      <li><a href="/#get-involved">GET INVOLVED</a></li>
+      <li><a href="/about">ABOUT</a></li>
+      <li><a href="/join">JOIN</a></li>
+      <li><a href="/events">EVENTS</a></li>
+      <li><a href="/partners">PARTNERS</a></li>
+      <li><a href="/resources">RESOURCES</a></li>
+      <li><a href="/donate">DONATE</a></li>
+    </ul>
+  </div>
+</nav>
+
+  <ul class="sidenav" id="mobile-nav">
+    <li><a href="/">HOME</a></li>
+    <li><a href="/#get-involved">GET INVOLVED</a></li>
+    <li><a href="/about">ABOUT</a></li>
+    <li><a href="/join">JOIN</a></li>
+    <li><a href="/events">EVENTS</a></li>        
+    <li><a href="/clubs">CLUBS</a></li>
+    <li><a href="/partners">PARTNERS</a></li>
+    <li><a href="/resources">RESOURCES</a></li>
+    <li><a href="/donate">DONATE</a></li>
+  </ul>
+
+  <script>
+    $(".dropdown-button").dropdown();
+    $(".button-collapse").sideNav();
+  </script>
+-->
+<!--
+<ul id="about-dropdown" class="dropdown-content">
+  <li><a href="/#about">ABOUT</a></li>
+  <li><a href="/#team">TEAM</a></li>
+  <li><a href="/#clubs">CLUBS</a></li>
+</ul>
+-->
+<!--
+
+<ul id="sidenav-about-dropdown" class="dropdown-content">
+  <li><a href="/#about">ABOUT</a></li>
+  <li><a href="/#team">TEAM</a></li>
+  <li><a href="/#clubs">CLUBS</a></li>
+</ul>
+-->
+
+<!--
+<div class="navbar-fixed" style="
+    margin-top: 2%;
+    margin-left: 7%;
+    margin-right: 10%;
+    position:relative!important">
+  <nav>
+    <div class="nav-wrapper">
+      <a href="/" class="brand-logo"><img src="/assets/images/ben_full_logo.png"></a>
+      <a href="#" data-activates="mobile-nav" class="button-collapse"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+-->
+<!--        <li><a class="dropdown-button" href="/about" data-activates="about-dropdown">ABOUT<i class="material-icons right">arrow_drop_down</i></a></li>-->
+<!--
+        <li><a href="/#get-involved">GET INVOLVED</a></li>
+        <li><a href="/about">ABOUT</a></li>
+        <li><a href="/join">JOIN</a></li>
+        <li><a href="/events">EVENTS</a></li>
+        <li><a href="/partners">PARTNERS</a></li>
+        <li><a href="/resources">RESOURCES</a></li>
+        <li><a href="/donate">DONATE</a></li>
+      </ul>
+    -->
+<!--      <ul class="side-nav" id="mobile-nav">-->
+<!--        <li><a class="dropdown-button" href="/about" data-activates="about-dropdown">ABOUT<i class="material-icons right">arrow_drop_down</i></a></li>-->
+<!--        <li><a href="/">HOME</a></li>
+        <li><a href="/#get-involved">GET INVOLVED</a></li>
+        <li><a href="/about">ABOUT</a></li>
+        <li><a href="/join">JOIN</a></li>
+        <li><a href="/events">EVENTS</a></li>        
+        <li><a href="/clubs">CLUBS</a></li>
+        <li><a href="/partners">PARTNERS</a></li>
+        <li><a href="/resources">RESOURCES</a></li>
+        <li><a href="/donate">DONATE</a></li>
+      </ul>-->
+<!--
+    </div>
+  </nav>
+-->
 
 <body>
 

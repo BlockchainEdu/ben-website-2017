@@ -19,7 +19,7 @@ $(() => {
 
 // Product Page
 
-
+/*
 function run() {
 
   if ( netlifyIdentity.currentUser() != null){
@@ -34,3 +34,4 @@ function run() {
 };
 
 run();
+*/
