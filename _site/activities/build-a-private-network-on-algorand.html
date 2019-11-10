@@ -9,7 +9,7 @@
 <meta name="description" content="Blockchain Education Network">
 <meta name="author" content="Erick Pinos 2019">
 
-<title>Donate | Blockchain Education Network</title>
+<title>Build a Private Network on Algorand | Blockchain Education Network</title>
 
 <!-- STYLES -->
 <link type="text/css" rel="stylesheet" href="/css/materialize.min.css">
@@ -24,108 +24,58 @@
 
 </head>
 
-<link type="text/css" rel="stylesheet" href="/donate/donate.css">
+<body>
 
-<body style="background-color: #fff; color:#000">
-  <div id="header"></div>
+<div id="header"></div>
 
-  <div class="container offset-container">
-    <div class="row">
-    <div class="row section">
-      <div class="col s12 center-align">
-        <h1>Donate</h1>
-      </div>
-    </div>
-      <div class="col s12 center-align">
-        <img id="ben-hat" src="/assets/images/ben-students-wide.jpg">
-        <h5>We need your help.</h5>
-      </div>
-      <div class="col s12 l6 center-block">
-        <p style="text-align:center">The Blockchain Education Network (College Cryptocurrency network) is a 501(c)3 nonprofit organization. Your donations help us fund operations, programs, and financial aid for students interested in learning about blockchain. Donations to BEN are tax deductible.</p>
+<div class="container offset-container">
+<h2 id="build-a-private-network-on-algorand">Build a Private Network on Algorand</h2>
 
-        <p><span style="font-weight:800">Send us an email</span> after you've made your donation and we will add you to a special newsletter for our supporters. We will respect your privacy and those who wish to remain anonymous.</span></p>  
-        <p><span style="font-weight:800">Claiming a tax deduction:</span> Please contact BEN at <a href="mailto:donations@blockchainedu.org" target="_top">donations@blockchainedu.org</a> for donation receipts and any additional questions you may have.</p>
-      </div>
-    </div>
+<p>In this activity, you will learn how to build a private network on Algorand, create and manage new nodes and wallets, and even send multisignature transactions on your own private network.</p>
 
-    <div class="row">
-      <div class="col s12 center-align">
-        <hr><h5>Donate with Crypto</h5><hr>
-    <div class="row">
-      <div class="col s12 center-align">
-        <h5>Donate through our Gitcoin Grant!</h5>
-      </div>
-      <div class="col s8 m4 offset-m4 offset-s2">
-        <a href="https://gitcoin.co/grants/49/blockchain-education-network"><img src="/assets/images/ben-gitcoin-grant-campaign.png" width="100%"></a>
-      </div>
-      <div class="col s12 m12 center-align">
-          <a href="https://gitcoin.co/grants/49/blockchain-education-network" target="_blank" class="waves-effect waves-light btn btn-sleek" style="background: #12c971; color: #fff;     font-size: 14px;">Donate Through Gitcoin</a>
-      </div>
-    </div>
-<br>
+<h3 id="1-create-a-private-network">1. CREATE A PRIVATE NETWORK</h3>
+<p>Follow the instructions from the “<a href="https://developer.algorand.org/docs/creating-private-network">Creating a Private Network</a>” tutorial by Algorand to set up your very own private Algorand network.</p>
 
-        <div>
-        <h5>Donate through Coinbase!</h5>
-          <a class="donate-with-crypto" href="https://commerce.coinbase.com/checkout/041362e5-b215-4484-82d9-fb27e513563a">
-            <span>Donate</span>
-          </a>
-          <script src="https://commerce.coinbase.com/v1/checkout.js?version=201807"></script>
-        </div>
-        <br>
-        <a href="https://commerce.coinbase.com/checkout/041362e5-b215-4484-82d9-fb27e513563a">Click here if link is not working.</a>
-      </div>
-    </div>
+<p>Paste the output showing the status of all nodes running on the private network you created.</p>
 
-    <div class="row">
-      <div class="col s12 center-align">
-          <h5>Prefer donating directly?</h5>
-        <p><span style="font-weight:800">Don't get phished!</span> Make sure you're on <a href="https://www.blockchainedu.org">https://www.blockchainedu.org</a>. <br />
-          Email <a href="mailto:donations@blockchainedu.org" target="_top">donations@blockchainedu.org</a> if you're unsure.
-        </p>
-      </div>
-    </div>
+<h3 id="2-create-a-new-wallet">2. CREATE A NEW WALLET</h3>
+<p>Follow the instructions from the “<a href="https://developer.algorand.org/docs/creating-new-wallet">Creating a New Wallet</a>” tutorial by Algorand to create new wallets on your private network.</p>
 
-    <div class="row" id="donate-direct"></div>
+<p>Paste the output showing the list of wallets you created in your private network.</p>
 
-    <div class="row">
-      <div class="col s12 center-align">
-        <hr><h5>Donate with Fiat</h5><hr>
-        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-          <input type="hidden" name="cmd" value="_s-xclick">
-          <input type="hidden" name="hosted_button_id" value="JDZJ3928AHGPS">
-          <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-          <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-        </form>
-      </div>
-    </div>
+<h3 id="3-create-a-new-account-and-participation-key">3. CREATE A NEW ACCOUNT AND PARTICIPATION KEY</h3>
+<p>Follow the instructions from the “<a href="https://developer.algorand.org/docs/creating-new-account-and-participation-key">Creating a New Account and Participation Key</a>” tutorial by Algorand. This will create a new address for your existing wallet and a participation key for your new account. Participation keys are necessary to participate in consensus.</p>
 
-    <hr>
+<p>Paste the output showing the account you just created for your private network.</p>
 
-    <div class="col s12 center-align">
-        <h2>2019 BEN Supporters</h2>
-    </div>
+<h3 id="4-write-a-raw-transaction-and-post-to-algod-rest-server">4. WRITE A RAW TRANSACTION AND POST TO ALGOD REST SERVER</h3>
+<p>Follow the instructions from the “<a href="https://developer.algorand.org/docs/write-raw-transaction-and-post-algod-rest-server">Write a Raw Transaction and Post to algod REST Server.</a>” tutorial by Algorand. This will create a new transaction and then submit it to the blockchain using the algod REST endpoint on your node.</p>
 
-<!--    <div class="row">
-      <div class="col s12 center-align">
-        <h5>$5,000+</h5>
-      </div>
-    </div>
-    <div class="row center-align">
-      <div class="col s12 m2 offset-m5">Jinglan Wang</div>
-    </div>-->
+<p>Paste the output of your account list after your transaction to show that you successfully sent tokens to a second account.</p>
 
-    <div class="row">
-      <div class="col s12 center-align">
-        <h5>$1,000+</h5>
-      </div>
-    </div>
-    <div class="row center-align">
-      <div class="col s12 m2 offset-m3">Erick Pinos</div>
-      <div class="col s12 m2">Vivian Liu</div>
-      <div class="col s12 m2">MakerDAO</div>
-    </div>
+<h3 id="5-create-a-multisignature-account">5. CREATE A MULTISIGNATURE ACCOUNT</h3>
+<p>Follow the instructions from the “<a href="https://developer.algorand.org/docs/creating-multisignature-account">Creating a Multisignature Account</a>” by Algorand. Multisignature account require signatures from multiple accounts before processing a transaction.</p>
 
-  </div>
+<p>Paste the output showing your multisig account and the updated account balances after you made your multisig transaction.</p>
+
+<h3 id="activity-details">ACTIVITY DETAILS</h3>
+<p>When and where did you do this activity? With whom? Did you write any blog posts or social media about this activity?</p>
+
+<p>Type your response here
+This response will be reviewed and graded after submission.</p>
+
+<h3 id="activity-feedback">ACTIVITY FEEDBACK</h3>
+<p>What feedback do you have on this activity? What do you think can be improved?</p>
+
+<p>Type your response here
+This response will be reviewed and graded after submission.</p>
+
+
+<script src="https://static.airtable.com/js/embed/embed_snippet_v1.js"></script><iframe class="airtable-embed airtable-dynamic-height" src="https://airtable.com/embed/shrAdqtMZx9een9Gl?backgroundColor=red" frameborder="0" onmousewheel="" width="100%" height="2088" style="background: transparent; border: 1px solid #ccc;"></iframe>
+
+</div>
+
+
 
 <footer style="background-color:#000">
   <div class="row section">
@@ -272,38 +222,12 @@ color: white;
     </div>
   </div>
 </footer>
-<!--    <div class="row">
-    </div>
-    <div class="row">
-
-      <div class="col s12 m6 l6 center-align">
-        <h5>ShapeShift</h5>
-        <script>function shapeshift_click(a,e){e.preventDefault();var link=a.href;window.open(link,'1418115287605','width=700,height=500,toolbar=0,menubar=0,location=0,status=1,scrollbars=1,resizable=0,left=0,top=0');return false;}</script> <a onclick="shapeshift_click(this, event);" href="https://shapeshift.io/shifty.html?destination=0xfd5e7D9B422b12022d1488710AA7a1d2F40bA0C4&amp;output=ETH&amp;apiKey=0293c6be27b0b7668aed3e678528b716fd1fb6ff52c97f2337c6b6a3e9479e6928c96175b20d3b820d8074610b4601a3bbffbe318cae5c2294a5f69e2ab4737d"><img src="/assets/logos/large_dark_ss.png" class="ss-button"></a>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col s12 center-align">
-        <hr>
-          <h5>Prefer donating directly?</h5>
-        <hr>
-        <p>
-          Don't get phished! Make sure you're on <a href="https://www.blockchainedu.org">https://www.blockchainedu.org</a>. <br />
-          Contact <a href="mailto:contact@blockchainedu.org?Subject=Donations" target="_top">contact@blockchainedu.org</a> if you're unsure.
-        </p>
-      </div>
-    </div>
-    <div class="row" id="donate-direct"></div>
-  </div>
--->
-
-
-  <!-- LOAD SCRIPTS -->
-  <script src="/js/jquery.min.js"></script>
-  <script src="/js/materialize.min.js"></script>
-  <script src="https://use.fontawesome.com/8966490cfc.js"></script>
-  <script src="/js/main.js"></script>
-  <script src="/js/qrcode.min.js"></script>
-  <script src="/donate/donate.js"></script>
 </body>
+
+<!-- LOAD SCRIPTS -->
+<script src="/js/jquery.min.js"></script>
+<script src="/js/materialize.min.js"></script>
+<script src="https://use.fontawesome.com/8966490cfc.js"></script>
+<script src="/js/main.js"></script>
 
 </html>

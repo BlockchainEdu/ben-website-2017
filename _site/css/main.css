@@ -26,16 +26,16 @@ body {
   font-size: 14px;
   font-weight: 600;
   line-height: 50px;
-  -webkit-transition: all 500ms ease;
-  -moz-transition: all 500ms ease;
-  -ms-transition: all 500ms ease;
-  -o-transition: all 500ms ease;
-  transition: all 500ms ease;
+  -webkit-transition: all 250ms ease;
+  -moz-transition: all 250ms ease;
+  -ms-transition: all 250ms ease;
+  -o-transition: all 250ms ease;
+  transition: all 250ms ease;
 }
 
 .btn-sleek:hover {
-  color: black;
-  background: white;
+  color: white;
+  background: #333;
 }
 
 /* Home Page */
@@ -48,14 +48,12 @@ body {
 }
 
 #home-title {
-  font-weight:800;
-  font-size: 6rem;
+  font-weight:600;
+  font-size: 3rem;
 }
 
-@media only screen and (max-width:740px) {
-  #home-title {
-    font-size: 3rem;
-  }
+#home-button {
+  margin-top:30px;
 }
 
 /* Cards */
