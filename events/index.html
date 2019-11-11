@@ -4,9 +4,14 @@ layout: default
 ---
 
 <body>
+
 <div id="header"></div>
 
 <div class="container offset-container">
+
+  <div id="like_button_container"></div>
+  <div id="event_cards_container"></div>
+  Test
 
   <div class="row">
     <div class="col s12 m10 center-align offset-m1">
@@ -204,4 +209,10 @@ layout: default
 <script src="/js/materialize.min.js"></script>
 <script src="https://use.fontawesome.com/8966490cfc.js"></script>
 <script src="/js/main.js"></script>
+<script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+
+  <!-- Load our React component. -->
+  <script src="like_button.js"></script>
+  <script src="event_cards.js"></script>
 </body>

@@ -1,9 +1,8 @@
 ---
 title: Build a Private Network on Algorand
 layout: activity
+image: /assets/images/algorand_badge.png
 ---
-
-## Build a Private Network on Algorand
 
 In this activity, you will learn how to build a private network on Algorand, create and manage new nodes and wallets, and even send multisignature transactions on your own private network.
 
@@ -31,15 +30,3 @@ Paste the output of your account list after your transaction to show that you su
 Follow the instructions from the “[Creating a Multisignature Account](https://developer.algorand.org/docs/creating-multisignature-account )” by Algorand. Multisignature account require signatures from multiple accounts before processing a transaction.
 
 Paste the output showing your multisig account and the updated account balances after you made your multisig transaction.
-
-### ACTIVITY DETAILS
-When and where did you do this activity? With whom? Did you write any blog posts or social media about this activity?
-
-Type your response here
-This response will be reviewed and graded after submission.
-
-### ACTIVITY FEEDBACK
-What feedback do you have on this activity? What do you think can be improved?
-
-Type your response here
-This response will be reviewed and graded after submission.
